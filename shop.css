@@ -1,0 +1,166 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+h2 {
+  font-size: 45px;
+  line-height: 50px;
+  color: #222;
+}
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+/* --------header------- */
+#logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: gold;
+  font-size: 35px;
+}
+header {
+  background-color: #f0f0f0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: center;
+  padding: 20px 130px;
+}
+.navigation a {
+  text-decoration: none;
+  padding-left: 25px;
+  color: cadetblue;
+  font-size: 19px;
+}
+#background {
+  background-image: url(/Images/T_shirts/img/banner/b2.jpg);
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#background h1,
+#background p {
+  text-align: center;
+  color: #f0f0f0;
+}
+
+#background p {
+  font-size: 130%;
+}
+
+/* products */
+
+.productheader {
+  padding-top: 2.5%;
+  text-align: center;
+}
+.section-p1 {
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#product1 {
+  text-align: center;
+}
+
+#product1 .father {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#product1 .product-container {
+  width: 10%;
+  min-width: 250px;
+  padding: 12px 13px;
+  /* border: 1px solid #cce7d0; */
+  border-radius: 18px;
+  cursor: pointer;
+  box-shadow: 25px 25px 25px rgba(0, 0, 0, 3%);
+  margin: 32px 1px;
+  transition: 0.3s ease;
+  position: relative;
+}
+#product1 .product-container:hover {
+  box-shadow: 25px 25px 25px rgba(0, 0, 0, 8%);
+  transform: scale(1.1);
+}
+
+#product1 .pro-imgs img {
+  width: 100%;
+  border-radius: 20px;
+  background-color: rgb(241, 241, 241);
+}
+
+#product1 .father .product-container .Phones {
+  width: 80%;
+}
+
+#product1 .father .product-container .Watche {
+  width: 90%;
+}
+
+#product1 .pro-des {
+  text-align: start;
+  padding: 10px 0px;
+}
+
+#product1 .pro-des span {
+  color: #cce7d0;
+  font-size: 13px;
+}
+
+#product1 .pro-des h5 {
+  padding-top: 5px;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+#product1 .pro-des .rate {
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+
+#product1 .pro-des h4 {
+  color: #088178;
+  font-size: 18px;
+  padding-top: 6px;
+  font-weight: 700;
+}
+
+#product1 .cart a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  color: #088178;
+  position: absolute;
+  bottom: 22px;
+  right: 20px;
+}

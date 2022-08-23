@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!--for phone and computer-->
+        <title>Sun store</title>
+        <meta name="description" content="you have to write here the description
+        for your web page and it has contan min 90 char max 200 char ">
+        <meta name="keywords" content="here you have to but your keyword 
+        like (html)(cars)(clothes) and so on">
+        <link rel="icon" href="/HTML Files/Home.html"><!-- icon for your web but doesn't work here -->
+        <link rel="stylesheet" href="log.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="/style.css">
+
+    </head>
+    <body>
+
+        <section id="header">
+            <a href="/HTML Files/Home.html"><img src="/Images/SunStoreLogo.png" alt="SunStore" class="logo"></a>
+            <div>
+                <ul id="navbar">
+                <li><a href="/HTML Files/Home.html" >Home</a></li>
+                <li><a href="/HTML Files/Shop.html" >Shop</a></li>
+                <li><a href="/HTML Files/About.html">About</a></li>
+                <li><a class="active" href="/login/log.html">Login</a></li>
+                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="backgroundphoto">
+        <img src="/Images/T_shirts/6479017.jpg"/>
+        </div>
+        <section class="container forms">
+            <div class="form login">
+                <div class="form-content">
+                    <header>Login</header>
+                    <form action="#">
+                        <div class="field input-field">
+                            <input type="email" placeholder="Email" required class="input">
+                        </div>
+                        <div class="field input-field">
+                            <input type="password" placeholder="Password" required class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+                        <div class="form-link">
+                            <a href="#" class="forgot-pass">Forgot password?</a>
+                        </div>
+                        <div class="field button-field">
+                            <button>Login</button>
+                        </div>
+                    </form>
+                    <div class="form-link">
+                        <span>Don't have an account?
+                            <a href="#" class="link signup-link"> Signup</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="media-options">
+                    <a href="#" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Login with Facebook</span>
+                    </a>
+                </div>
+                <div class="media-options">
+                    <a href="#" class="field google">
+                        <img src="google.png" class="google-img">
+                        <span>Login With Google</span>
+                    </a>
+                </div>
+            </div>
+            <div class="form signup">
+                <div class="form-content">
+                    <header>Signup</header>
+                    <form action="#">
+                        <div class="field input-field">
+                            <input type="email" placeholder="Email" class="input">
+                        </div>
+                        <div class="field input-field">
+                            <input type="password" placeholder="Create Password" class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+                        <div class="field input-field">
+                            <input type="Password" placeholder="Confirm Password" class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+                        <div class="field button-field">
+                            <button>Signup</button>
+                        </div>
+                    </form>
+                    <div class="form-link">
+                        <span>Already have an account?
+                            <a href="#" class="link login-link">Login</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="media-options">
+                    <a href="#" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>  /span>
+                    </a>
+                </div>
+                <div class="media-options">
+                    <a href="#" class="field google">
+                        <img src="google.png" class="google-img">
+                        <span>Login With Google</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <script src="/login/log.js"></script>
+    </body>
+</html>
