@@ -9,16 +9,16 @@
     background-color: #232836;
 }
 .container{
-    margin-top: -350px;
+    margin-top: -300px;
     width: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
     margin-left: 560px;
-    
     /* background-color: rgb(16, 253, 253); */
     column-gap:30px ;
     overflow: hidden;
+
 }
 
 .backgroundphoto
@@ -41,7 +41,6 @@
     padding: 30px;
     border-radius: 15px;
     max-width: 430px;
-
 }
 .form.signup{
     opacity: 0;
@@ -63,14 +62,15 @@ header{
     text-align: center;
 }
 form{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .form .field{
     border-radius: 15px;
     position: relative;
-    height: 50px;
-    width: 100%;
-    margin-top: 20px;
+    height: 45px;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 .field input{
     height: 100%;
@@ -86,10 +86,11 @@ form{
 }
 .field button{
     height: 100%;
-    width: 100%;
-    font-size: 15px;
-    font-weight: 400;
-    border-radius: 15px;
+    width: 50%;
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
     border: none;
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -99,6 +100,7 @@ form{
 .field input:focus{
     border-bottom-width: 4px;
 }
+
 .eye-icon{
     position: absolute;
     right: 10px;
@@ -111,16 +113,17 @@ form{
 }
 .form-link{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     
 }
 .field button:hover{
     background-color: #016dcb;
 }
 .form-link span{
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     color: #161616;
+    
 }
 .form a{
     color:#161616 ;
@@ -160,14 +163,16 @@ a.facebook{
     background-color: #406e96;
     color: white;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 a.facebook:hover{
     background-color: #016dcb;
+    
 }
 a.facebook .facebook-icon{
     height: 40px;
     width: 40px;
-    color:#0171d3 ;
+    color:#016dcb ;
     font-size: 20px;
     border-radius: 50%;
     display: flex;
@@ -188,12 +193,13 @@ img.google-img{
     object-fit: cover;
 }
 a.google{
-    border: 1px solid #3ec445fd;
+    border: 1px solid #29932efd;
     text-decoration: none;
     background-color: #3ec445fd;
+    transition: all 0.3s ease;
 }
 a.google:hover{
-    background-color: #00ff0dfd;
+    background-color: #14ff3bfd;
 }
 a.google span{
     font-weight: 500;
