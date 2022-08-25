@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .WhoAreWe
+  {
+    text-align: center;
+    padding-top: 10px
+  }
+  #who
+  {
+    color: #ffc907;
+    font-size: 70px;
+  }
+  #whocontent
+  {
+    color: #02364c;
+    font-size: 23px;
+  }

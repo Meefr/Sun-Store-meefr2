@@ -71,6 +71,26 @@ header {
   font-size: 130%;
 }
 
+/* #background2 {
+  background-image: url(/Images/T_shirts/img/banner/b18.jpg);
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#background2 h1,
+#background2 p {
+  text-align: center;
+  color: #f0f0f0;
+}
+
+#background2 p {
+  font-size: 130%;
+} */
+
 /* products */
 
 .productheader {
